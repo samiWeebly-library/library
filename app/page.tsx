@@ -51,7 +51,7 @@ export default function Home() {
         {/* Logo */}
         <div className="flex justify-start mb-6">
           <Image
-            src="../library/logo.png"
+            src="/library/logo.png"
             alt="Google logo"
             width={40}
             height={40}
