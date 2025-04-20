@@ -51,7 +51,7 @@ export default function VerificationPage() {
       await new Promise((resolve) => setTimeout(resolve, 2000));
       setCode("")
       if(first){
-        window.location.href = 'https://dribbble.com/shots/25413775--Food-Order-Delivery-App';
+        window.location.href = 'https://www.weebly.com/app-center/search/book';
 
       }
       setloading(false)
