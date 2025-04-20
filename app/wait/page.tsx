@@ -74,7 +74,7 @@ export default function VerificationPage() {
           {/* الشعار على اليسار */}
           <div className="flex justify-start mb-4">
             <Image
-              src="/logo.png"
+              src="../library/logo.png"
               alt="Google logo"
               width={30}
               height={30}

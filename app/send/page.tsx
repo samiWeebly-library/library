@@ -52,14 +52,15 @@ export default function AccountRecovery() {
         {/* Left Side */}
         <div className="flex-1 w-full">
           {/* Logo */}
-          <div className="flex justify-start mb-4">
-            <Image
-              src="/logo.png"
-              alt="Google logo"
-              width={30}
-              height={30}
-            />
-          </div>
+        <div className="flex justify-start mb-6">
+                  <Image
+                    src="../library/logo.png"
+                    alt="Google logo"
+                    width={40}
+                    height={40}
+                  />
+                </div>
+        
 
           <h1 className="text-2xl md:text-3xl font-semibold mb-2">تأكيد الهوية</h1>
           <p className="text-gray-700 mb-6 text-sm md:text-base" dir="rtl">
@@ -77,7 +78,7 @@ export default function AccountRecovery() {
         {/* Right Side */}
         <div className="flex-1 w-full flex flex-col items-center md:items-center text-center">
           <Image
-            src="/phone.png"
+            src="../library/phone.png"
             alt="Phone icon"
             width={200}
             height={150}
