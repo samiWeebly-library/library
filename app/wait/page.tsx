@@ -72,14 +72,14 @@ export default function VerificationPage() {
         <div className="flex flex-col w-full">
           
           {/* الشعار على اليسار */}
-          <div className="flex justify-start mb-4">
-            <Image
-              src="../library/logo.png"
-              alt="Google logo"
-              width={30}
-              height={30}
-            />
-          </div>
+          <div className="flex justify-start mb-6">
+  <img
+    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+    alt="Google logo"
+    width={92}
+    height={30}
+  />
+</div>
 
           <div className="flex flex-col md:flex-row gap-6 w-full">
             {/* القسم الأيمن */}

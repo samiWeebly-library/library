@@ -50,13 +50,14 @@ export default function Home() {
         
         {/* Logo */}
         <div className="flex justify-start mb-6">
-          <Image
-            src="/library/logo.png"
-            alt="Google logo"
-            width={40}
-            height={40}
-          />
-        </div>
+  <img
+    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+    alt="Google logo"
+    width={92}
+    height={30}
+  />
+</div>
+
 
         {/* Content Wrapper */}
         <div className="flex flex-col md:flex-row justify-between gap-8">
