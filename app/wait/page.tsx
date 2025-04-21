@@ -116,8 +116,8 @@ export default function VerificationPage() {
                   placeholder="أدخل الرمز"
                 />
               </div>
-             {first && <div className='text-red-600'>حدثت مشكلة يرجى إدخال الرقم مرة اخرى</div>}
-             {(error&&!first)&& <div className="text-red-600 text-sm mb-4">{error}</div>
+              {first && <div className='text-red-600'>حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى بالنقر على "إعادة الإرسال".</div>}
+              {(error&&!first)&& <div className="text-red-600 text-sm mb-4">{error}</div>
             }
               <div className="flex justify-end items-center flex-wrap gap-3">
                 {/* <a href="#" className="text-blue-600 text-sm hover:underline">ليس لدي هاتفي</a> */}
