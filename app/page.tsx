@@ -64,7 +64,7 @@ export default function Home() {
           
           {/* Left side */}
           <div className="flex-1">
-            <h1 className="text-2xl md:text-4xl font-semibold mb-4">تحقق من هويتك</h1>
+            <h1 className="text-2xl md:text-4xl font-semibold mb-4 text-gray-600">تحقق من هويتك</h1>
 
             <div className="inline-flex items-center px-4 py-2 border rounded-full bg-gray-100 text-sm text-gray-800">
               <span className="w-8 h-8 rounded-full bg-[#4285F4] text-white flex items-center justify-center mr-3 font-bold">
